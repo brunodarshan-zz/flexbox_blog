@@ -30,8 +30,9 @@
 @media all and (max-width: 600px) {
   .navigation {
     -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     padding: 0;
+
     a {
       text-align: center;
       padding: 10px;
