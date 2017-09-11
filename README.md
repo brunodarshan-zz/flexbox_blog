@@ -2,6 +2,8 @@
 
 Hi! This is my single blog developed with flexbox only.
 
+!(Screenshot)[./screenshot.png]
+
 # About
 
 This project was born to my exercise of flexbox in a bored day.
