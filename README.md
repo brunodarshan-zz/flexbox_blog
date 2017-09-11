@@ -2,7 +2,7 @@
 
 Hi! This is my single blog developed with flexbox only.
 
-!(Screenshot)[./screenshot.png]
+![Screenshot](https://github.com/brunodarshan/flexbox_blog/blob/master/screenshot.png)
 
 # About
 
