@@ -1,0 +1,34 @@
+h1, h2, h3, h4 {
+  color: #454545;
+}
+
+a {
+  color: $linkDefault;
+  text-decoration: none;
+
+  &:hover, &:active, &:focus {
+    color: darken($linkDefault, 30);
+  }
+}
+
+p {
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin: .2em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}

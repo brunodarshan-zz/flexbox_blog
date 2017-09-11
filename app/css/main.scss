@@ -1,0 +1,29 @@
+$bgBody: #F0F0F0;
+$textDefault: #95989A;
+$linkDefault: rgb(96, 181, 255);
+$header: rgb(26, 137, 188);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin:  0 0 0 0;
+  background: $bgBody;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.0em;
+  color: $textDefault;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 560px){
+     > * {margin: 4px;}
+  }
+}
+
+@import "base";
+@import "components";
+@import "navgation";
